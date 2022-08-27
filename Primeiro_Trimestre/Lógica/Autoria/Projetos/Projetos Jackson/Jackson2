@@ -1,0 +1,24 @@
+ [200~import java.util.Scanner;
+public class Main
+{
+Jackson public static void main(String[] args) {
+Jackson     Scanner alberto = new Scanner(System.in);//Criação do Scanner
+Jackson     int n = alberto.nextInt();//variável n recebe o valor digitado no scanner
+Jackson Jackson int i = 1;// variável i recebe o valor 1
+Jackson Jackson while (i<n){ //Enquanto i for menor do que n faça:
+Jackson Jackson     int j = i;//variável j recebe o valor de i
+Jackson Jackson     int d = 0;//variável d inicia com o valor 0
+Jackson Jackson     while(j > 0){//enquanto j for maior do que 0 faça:
+Jackson Jackson         if(i % j == 0){//Se o RESTO da divisão de i por j for 0, faça:
+Jackson Jackson             d++;//Some 1 no valor de d
+Jackson Jackson         }//Fim do if
+Jackson Jackson         j--;//Diminua 1 no valor de j
+Jackson Jackson     }//fim do while
+Jackson Jackson     if(d == 2){//Se o valor de d for 2
+Jackson Jackson         System.out.println(i);//imprima o valor de i
+Jackson Jackson     }//fim do if
+Jackson Jackson     i++;//Some 1 no valor de i
+Jackson Jackson }//fim do while
+Jackson }
+}
+~

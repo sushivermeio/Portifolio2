@@ -1,0 +1,3 @@
+Foi criado uma atividade no dia 9 de Março, para entregar no dia 23 de Março.
+Essa atividade tinha a proposta de criar um sistema baseado em uma paleta de cores.
+Esse trabalho foi feito por mim (Arthur Reis), Bernardo Mattos, Daniel Pedrozo, Isadora Pallu e Pedro Nieto.

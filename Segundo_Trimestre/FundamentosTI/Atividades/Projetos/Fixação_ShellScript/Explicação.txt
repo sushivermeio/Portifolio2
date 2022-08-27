@@ -1,0 +1,2 @@
+Em um parâmetro, o script espera receber uma variável em forma de número, para resolver como por exemplo questões matemáticas, como nas minhas atividades.
+Dito isso, o script pode pedir informações para ser salvo e ser utilizado para conseguir mostrar essas mesmas informações inseridas.

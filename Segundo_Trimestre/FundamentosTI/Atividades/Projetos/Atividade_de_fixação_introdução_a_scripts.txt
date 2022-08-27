@@ -1,0 +1,5 @@
+#!/bin/bash
+clear //limpa o terminal antes de executar o teste.sh
+echo $1 >> $2 // move o que escrever para um arquivo que escolher
+echo O arquivo $2 possui o seguinte texto: //printa uma mensagem de acordo com o que escrever no '$1' abaixo do texto
+cat -n $2 //mostra as frases e o número de linhas

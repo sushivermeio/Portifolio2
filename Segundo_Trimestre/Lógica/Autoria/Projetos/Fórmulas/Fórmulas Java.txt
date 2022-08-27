@@ -1,0 +1,41 @@
+public static double metAlt(){
+            
+            Scanner scaneio = new Scanner(System.in);
+            
+            System.out.println("Digite o volume");
+            double V = scaneio.nextDouble();
+            System.out.println("Digite a área da face");
+            double AF = scaneio.nextDouble();
+            double H = V/AF;
+            System.out.println("\nSeu resultado é: ");            
+            return H;
+        }
+public static double metAF(){
+            
+            Scanner pipi = new Scanner (System.in);
+            
+            System.out.println("Digite o volume");
+            double V = pipi.nextDouble();
+            System.out.println("Digite a altura");
+            double H = pipi.nextDouble();
+            double AF = V/H;
+            System.out.println("\nSeu resultado é: ");            
+            return AF;
+            
+        }
+
+public static double areaTotal(){
+        
+            Scanner play = new Scanner(System.in);
+            
+            System.out.println("Digite a área da base:");
+            double Ab = play.nextDouble();
+            System.out.println("Digite o número de faces:");
+            double N = play.nextDouble();
+            System.out.println("Digite a área da face");
+            double F = play.nextDouble();
+            double At = 2*Ab+N*F; 
+            System.out.println("\nSeu resultado é: ");
+            return At;
+            
+        }

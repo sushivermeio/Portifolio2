@@ -1,0 +1,9 @@
+No dia 15 de Julho antes de uma atividade, fomos apresentados ao controle de fluxo do shell.
+Onde se trata de controle de decisões e estruturas de repetição
+Ex:
+	if [5 -lt 7]
+	then
+	     echo '5 é menor que 7!'
+	fi
+
+E é bem similar com o que já foi trabalhado com o java pois além to 'if', também existe 'for' e 'while'
